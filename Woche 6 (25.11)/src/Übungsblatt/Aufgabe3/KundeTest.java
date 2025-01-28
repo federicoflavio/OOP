@@ -10,9 +10,9 @@ public class KundeTest {
 		
 		System.out.println(sinner);
 		
-		System.out.println(dodig2 == dodig);
+		System.out.println(dodig.equals(dodig));
 		
-		System.out.println(dodig.isEqual(sinner));
+		System.out.println(dodig.equals(dodig2));
 		
 		
 	}

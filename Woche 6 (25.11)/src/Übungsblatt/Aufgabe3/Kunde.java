@@ -17,8 +17,8 @@ public class Kunde {
 		return "Dein Name: " + name + "\nDeine Mail: " + mailAdresse;
 	}
 
-	public boolean isEqual(Kunde kunde2) {
-		return this.name == kunde2.name && this.mailAdresse == kunde2.mailAdresse;
+	public boolean equals(Kunde kunde2) {
+		return this.name.equals(kunde2.name) && this.mailAdresse.equals(kunde2.mailAdresse);
 	}
 
 }
